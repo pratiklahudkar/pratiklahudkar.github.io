@@ -60,7 +60,7 @@
             </div><!--/container-->
 		  <!-- Header Image -->
           <section class="hero" id="hero">
-            <div class="container">
+            <div class="container-fluid">
 			  <!-- Slider Button (don't edit!)-->
               <div class="row">
                 <div class="col-md-12 text-right navicon">
@@ -71,20 +71,21 @@
 			  <section>
               <div class="row">
                 <div class="col-md-8 col-md-offset-1 inner">
-                  <h1 class="animated fadeInDown" >
+                  <h1 class="animated fadeInDown" id="myname">
                     PR<span style="color:#E04343;">AT</span>IK<br/>
-                    <span>LAH<span style="color:#FFE800">UDK</span>AR</span>
+                    <span>LAH<span style="color:#FFE800;">UDK</span>AR</span>
                   </h1>
-                  </section>
                   <!-- Title -->
-                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Developer,Photographer, Artist</span></h3><!-- Text Rotator -->
+                  <h3 class="animated fadeInUp delay-02s" style="margin-top: -15px;"><span class="rotate">Developer,Photographer, Artist</span></h3><!-- Text Rotator -->
+                
+                <br>
                 </div>
-              </div>
+              </div></section>
 			  <!-- Learn More Button -->
               <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
                   <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
-			            <p>SEE MORE</p>
+			            
 			            <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
 			        </a>
                 </div>
@@ -584,7 +585,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12 text-center">
-                <p>All Rights Reserved. &copy; 2018 <a style=" href="http://www.pratix.in">PratiX.in</a>
+                <p>All Rights Reserved. &copy; 2018 <a style="">PratiX.in</a>
               </div>
             </div>
           </div>
@@ -614,7 +615,13 @@
     <script src="assets/lightbox/js/lightbox.min.js"></script>
     <!-- Google Maps --> 
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
-	<!-- Theme JavaScript Core -->
+    <!-- Fitjs-->
+    <script src="js/jquery.fittext.js"></script>
+    <script>
+        jQuery("#myname").fitText(1, { minFontSize: '70px', maxFontSize: '100px' });
+      </script>
+    
+    <!-- Theme JavaScript Core -->
 	<script src="js/main.js"></script>
 	<script src="js/script.js"></script>
 
